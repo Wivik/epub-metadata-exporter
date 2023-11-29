@@ -2,6 +2,8 @@
 
 A simple tool to extract various data from an EPUB3 file. I wanted something to easily calculate how many pages and words my books contains.
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Wivik_epub-metadata-exporter&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Wivik_epub-metadata-exporter)
+
 ## Output
 
 Provide an epub3 file and this tool will return :
