@@ -10,7 +10,7 @@ nltk.download('punkt', quiet=True)
 
 parser = argparse.ArgumentParser(description='Count words and estimate pages in an epub file.')
 parser.add_argument('file', help='The epub file to analyze.')
-parser.add_argument('--words_per_page', type=int, default=350, help='The number of words per page for the page estimate. Default is 350.')
+parser.add_argument('--words_per_page', type=int, default=280, help='The number of words per page for the page estimate. Default is 280 for fiction works. Non-fiction works can be set to 230.')
 parser.add_argument('--output_format', choices=['text', 'json', 'yaml'], default='text', help='The output format. Can be "text", "json", or "yaml". Default is "text".')
 args = parser.parse_args()
 

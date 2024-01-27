@@ -16,7 +16,9 @@ Provide an epub3 file and this tool will return :
 - The total of words
 - An estimation of the total of pages
 
-The page number estimated is based on a average of 350 words per page. This setting can be changed.
+The page number estimated is based on a average of 280 words per page for fiction. 230 is recommended for non-fiction works. This setting can be changed.
+
+This estimate is based on various sources such as [How many words per page in a book ?](https://kindlepreneur.com/words-per-page/). As an ebook-only writer, I don't have actual references. If you also publish physical editions, I would recommend to adapt the setting according to the font size to match it.
 
 ## How to
 
@@ -42,7 +44,7 @@ python epub-metadata-extractor.py somefile.epub
 
 ## Arguments
 
-- `--words_per_page` : Number of words per page to count the page total. Default is 350.
+- `--words_per_page` : Number of words per page to count the page total. Default is 280 for fiction works. Non-fiction works can use 230.
 - `--output_format` : Possible values are : `text`, `json`, `yaml`. Default is `text`.
 
 ## Output examples
