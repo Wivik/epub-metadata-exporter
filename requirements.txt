@@ -1,4 +1,4 @@
-beautifulsoup4==4.13.1
+beautifulsoup4==4.13.3
 EbookLib==0.18
 nltk==3.9.1
 PyYAML==6.0.2
